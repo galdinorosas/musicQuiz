@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     $(".timer").runner();
 
-    $('.submitButton').tooltip();
+    $('.submitButton, .startGameButton').tooltip();
 
     var questionsAndAnswers = [{
         "question": "Which alternative artist made the song Reptilia?",
@@ -101,6 +101,7 @@ $(document).ready(function() {
     $(".submitButton").on("click", function() {
 
         if ($('ul input').is(':checked')) {
+            $('.submitButton').tooltip('destroy');
             if (index < 6) {
                 $(".visibleQuestion").text(questionsAndAnswers[index].question);
                 $(".text1").text(questionsAndAnswers[index].optionOne);
@@ -167,9 +168,11 @@ $(document).ready(function() {
             $("#option4").prop("checked", false);
 
         } else {
+            $('.submitButton').tooltip();
             return;
         }
     });
+
 
     // The start game button will display the question/answer screen and start to play music.
 

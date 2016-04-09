@@ -93,8 +93,9 @@ div.container-fluid {
     padding: 0;
 }
 
-.contentContainer {
+div.contentContainer {
     // background-color: transparent;
+    margin-top: -4em;
     .introStartGameContainer {
         z-index: 100;
         display: block;
@@ -239,8 +240,8 @@ div.container-fluid {
         }
         .optionsNewGameButton {
             display: block;
-            width: 8em;
-            height: 3em;
+            width: 9em;
+            height: 3.5em;
             margin: 0 auto;
             font-size: 0.75em;
             margin-top: 12em;
@@ -612,73 +613,4 @@ li>p {
     }
 }
 
-// @media only screen and (min-width: 1000px) {
-//     .topBarCentered,
-//     .contentContainer,
-//     .optionsContainer {
-//         width: 52.5em;
-//     }
-//     .topBarButtonsContainer > li {
-//         width: 5em;
-//     }
-//     .contentContainer {
-//         height: 42em;
-//     }
-//     .introStartGameContainer {
-//         width: 42.5em;
-//     }
-//     .introMessageContainer {
-//         width: 33em;
-//         .introMessage {
-//             font-size: 2.8em;
-//         }
-//     }
-//     .startGameButton {
-//         width: 11em;
-//         height: 3.5em;
-//     }
-//     .questionAndAnswerContainer {
-//         width: 43em;
-//         height: 37em;
-//     }
-//     .questionContainer {
-//         width: 22em;
-//         font-size: 1.75em;
-//     }
-//     .answersList > input {
-//         transform: scale(1.3, 1.3);
-//     }
-//     li > p {
-//         font-weight: bold;
-//     }
-//     .endContainer {
-//         width: 42.5em;
-//         height: 28em;
-//         h1 {
-//             font-size: 2.75em;
-//         }
-//         p {
-//             font-size: 1.75em;
-//         }
-//         #endButton {
-//             top: 4em;
-//             left: 13.5em;
-//         }
-//     }
-//     .submitButton {
-//         width: 10em;
-//         height: 3.5em;
-//         left: 28%;
-//     }
-//     .optionsTitle {
-//         font-size: 3em;
-//     }
-//     .instructionMessage {
-//         font-size: 1.5em;
-//     }
-//     .newGameButton {
-//         width: 10em;
-//         height: 3.5em;
-//         margin: 9em 0em 0em 3em;
-//     }
-// }
+

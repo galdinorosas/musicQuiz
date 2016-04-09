@@ -72,194 +72,193 @@ nav.navbar {
 div.container-fluid {
   padding: 0; }
 
-.contentContainer .introStartGameContainer {
-  z-index: 100;
-  display: block;
-  height: 20em;
-  margin: 0 auto;
-  text-align: center; }
-  .contentContainer .introStartGameContainer .introMessageContainer {
-    height: 10em;
-    margin: 10em auto;
-    margin-bottom: 2.5em;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 3em;
-    border-radius: 75px; }
-    .contentContainer .introStartGameContainer .introMessageContainer .introMessage {
-      color: white;
-      font-family: "Audiowide", "Lobster", "serif";
-      font-size: 2em;
-      position: relative;
-      top: 20%; }
-  .contentContainer .introStartGameContainer .startGameButton {
-    width: 10em;
-    height: 3em;
-    background-color: white;
-    border: 0;
-    font-size: 0.75em;
-    font-family: "Audiowide", "Lobster", "serif";
-    border-radius: 3px;
-    margin-top: 7em;
-    transition: background-color 0.3s linear 0s, color 0.3s linear 0s; }
-  .contentContainer .introStartGameContainer .startGameButton:hover {
-    background-color: blue;
-    color: white; }
-
-.contentContainer .questionAndAnswerContainer {
-  display: none;
-  margin: 8em auto; }
-  .contentContainer .questionAndAnswerContainer .questionContainer {
-    width: 20.5em;
-    height: 6.5em;
-    margin: 2em auto;
-    background: linear-gradient(grey, white);
-    position: relative;
-    top: 4%;
-    text-align: center;
-    font-size: 1em;
-    border-radius: 40px; }
-    .contentContainer .questionAndAnswerContainer .questionContainer p {
-      line-height: 170%;
-      position: relative;
-      top: 26%;
-      padding: 0em 0.75em;
-      font-family: 'EB Garamond', serif;
-      letter-spacing: 0.2px; }
-  .contentContainer .questionAndAnswerContainer .inputContainer {
-    margin: 0 auto; }
-    .contentContainer .questionAndAnswerContainer .inputContainer .userInput {
-      height: 15em;
-      display: block;
-      margin: 0 auto;
-      width: 20em; }
-      .contentContainer .questionAndAnswerContainer .inputContainer .userInput .answersList {
-        width: 12em;
-        display: block;
-        margin: 0 auto; }
-        .contentContainer .questionAndAnswerContainer .inputContainer .userInput .answersList li {
-          display: inline-block;
-          width: 15em;
-          height: 2.5em;
-          background-color: white;
-          text-align: center;
-          vertical-align: middle;
-          line-height: 2.5em;
-          margin: 0.5em 0 1em 2em;
-          border-radius: 40px;
-          cursor: pointer;
-          font-size: 0.6em; }
-        .contentContainer .questionAndAnswerContainer .inputContainer .userInput .answersList input {
-          transform: scale(1, 1);
-          display: inline-block;
-          cursor: pointer; }
-        .contentContainer .questionAndAnswerContainer .inputContainer .userInput .answersList input[type="radio"] {
-          margin-bottom: 2em; }
-      .contentContainer .questionAndAnswerContainer .inputContainer .userInput .submitButton {
-        width: 8em;
-        height: 2.5em;
-        display: block;
-        margin: 2em auto;
-        font-size: 0.75em;
-        background-color: lightgrey;
-        font-family: 'EB Garamond', serif;
-        position: relative;
-        border-radius: 3px;
-        border: black 0.2em solid;
-        transition: background-color 0.3s linear 0s, color 0.3s linear 0s; }
-      .contentContainer .questionAndAnswerContainer .inputContainer .userInput .submitButton:hover {
-        background-color: blue;
-        color: white; }
-
-.contentContainer .optionsContainer {
-  z-index: 500;
-  display: none;
-  height: 75%;
-  background-color: black;
-  text-align: center;
-  top: 3em;
-  position: absolute;
-  color: white; }
-  .contentContainer .optionsContainer .optionsTitle {
-    width: 7em;
-    margin: 0;
-    font-family: "Audiowide", "Lobster", "serif";
-    font-size: 2em;
-    border: black solid 0.2em;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    top: 10%;
-    color: white; }
-  .contentContainer .optionsContainer .instructionMessage {
-    font-family: "Audiowide", "Lobster", "serif";
-    font-size: 0.9em;
-    text-align: center;
-    position: relative;
-    top: 20%; }
-  .contentContainer .optionsContainer .optionsNewGameButton {
+div.contentContainer {
+  margin-top: -4em; }
+  div.contentContainer .introStartGameContainer {
+    z-index: 100;
     display: block;
-    width: 8em;
-    height: 3em;
-    margin: 0 auto;
-    font-size: 0.75em;
-    margin-top: 12em;
-    background-color: lightgrey;
-    font-family: "Audiowide", "Lobster", "serif";
-    border-radius: 3px;
-    border: black 0.2em solid;
-    transition: background-color 0.3s linear 0s, color 0.3s linear 0s;
-    color: black; }
-  .contentContainer .optionsContainer .optionsNewGameButton:hover {
-    background-color: red;
-    color: white; }
-
-.contentContainer .endContainer {
-  display: none;
-  border-radius: 25px;
-  margin: 0 auto;
-  margin-top: 10em;
-  background-color: black;
-  height: 25em;
-  width: 20em; }
-  .contentContainer .endContainer h1 {
-    color: white;
-    font-size: 1.5em;
-    letter-spacing: 0.09em;
-    font-family: 'EB Garamond', serif;
-    position: relative;
-    top: 25%;
-    width: 100%;
+    height: 20em;
     margin: 0 auto;
     text-align: center; }
-  .contentContainer .endContainer p {
-    font-family: 'EB Garamond', serif;
-    color: white;
-    width: 16em;
-    margin: 0 auto;
-    position: relative;
-    top: 35%;
+    div.contentContainer .introStartGameContainer .introMessageContainer {
+      height: 10em;
+      margin: 10em auto;
+      margin-bottom: 2.5em;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 3em;
+      border-radius: 75px; }
+      div.contentContainer .introStartGameContainer .introMessageContainer .introMessage {
+        color: white;
+        font-family: "Audiowide", "Lobster", "serif";
+        font-size: 2em;
+        position: relative;
+        top: 20%; }
+    div.contentContainer .introStartGameContainer .startGameButton {
+      width: 10em;
+      height: 3em;
+      background-color: white;
+      border: 0;
+      font-size: 0.75em;
+      font-family: "Audiowide", "Lobster", "serif";
+      border-radius: 3px;
+      margin-top: 7em;
+      transition: background-color 0.3s linear 0s, color 0.3s linear 0s; }
+    div.contentContainer .introStartGameContainer .startGameButton:hover {
+      background-color: blue;
+      color: white; }
+  div.contentContainer .questionAndAnswerContainer {
+    display: none;
+    margin: 8em auto; }
+    div.contentContainer .questionAndAnswerContainer .questionContainer {
+      width: 20.5em;
+      height: 6.5em;
+      margin: 2em auto;
+      background: linear-gradient(grey, white);
+      position: relative;
+      top: 4%;
+      text-align: center;
+      font-size: 1em;
+      border-radius: 40px; }
+      div.contentContainer .questionAndAnswerContainer .questionContainer p {
+        line-height: 170%;
+        position: relative;
+        top: 26%;
+        padding: 0em 0.75em;
+        font-family: 'EB Garamond', serif;
+        letter-spacing: 0.2px; }
+    div.contentContainer .questionAndAnswerContainer .inputContainer {
+      margin: 0 auto; }
+      div.contentContainer .questionAndAnswerContainer .inputContainer .userInput {
+        height: 15em;
+        display: block;
+        margin: 0 auto;
+        width: 20em; }
+        div.contentContainer .questionAndAnswerContainer .inputContainer .userInput .answersList {
+          width: 12em;
+          display: block;
+          margin: 0 auto; }
+          div.contentContainer .questionAndAnswerContainer .inputContainer .userInput .answersList li {
+            display: inline-block;
+            width: 15em;
+            height: 2.5em;
+            background-color: white;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 2.5em;
+            margin: 0.5em 0 1em 2em;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 0.6em; }
+          div.contentContainer .questionAndAnswerContainer .inputContainer .userInput .answersList input {
+            transform: scale(1, 1);
+            display: inline-block;
+            cursor: pointer; }
+          div.contentContainer .questionAndAnswerContainer .inputContainer .userInput .answersList input[type="radio"] {
+            margin-bottom: 2em; }
+        div.contentContainer .questionAndAnswerContainer .inputContainer .userInput .submitButton {
+          width: 8em;
+          height: 2.5em;
+          display: block;
+          margin: 2em auto;
+          font-size: 0.75em;
+          background-color: lightgrey;
+          font-family: 'EB Garamond', serif;
+          position: relative;
+          border-radius: 3px;
+          border: black 0.2em solid;
+          transition: background-color 0.3s linear 0s, color 0.3s linear 0s; }
+        div.contentContainer .questionAndAnswerContainer .inputContainer .userInput .submitButton:hover {
+          background-color: blue;
+          color: white; }
+  div.contentContainer .optionsContainer {
+    z-index: 500;
+    display: none;
+    height: 75%;
+    background-color: black;
     text-align: center;
-    font-size: 1em; }
-  .contentContainer .endContainer #quizTime,
-  .contentContainer .endContainer #totalCorrectAnswers {
-    font-size: 1.5em; }
-  .contentContainer .endContainer .newGameButton {
-    display: block;
-    width: 8em;
-    height: 2.5em;
-    margin: 0 auto;
-    font-size: 0.8em;
-    margin-top: 15em;
-    background-color: lightgrey;
-    font-family: "Audiowide", "Lobster", "serif";
-    border-radius: 3px;
-    border: black 0.2em solid;
-    transition: background-color 0.3s linear 0s, color 0.3s linear 0s;
-    color: black; }
-  .contentContainer .endContainer .newGameButton:hover {
-    background-color: red;
+    top: 3em;
+    position: absolute;
     color: white; }
+    div.contentContainer .optionsContainer .optionsTitle {
+      width: 7em;
+      margin: 0;
+      font-family: "Audiowide", "Lobster", "serif";
+      font-size: 2em;
+      border: black solid 0.2em;
+      text-align: center;
+      margin: 0 auto;
+      position: relative;
+      top: 10%;
+      color: white; }
+    div.contentContainer .optionsContainer .instructionMessage {
+      font-family: "Audiowide", "Lobster", "serif";
+      font-size: 0.9em;
+      text-align: center;
+      position: relative;
+      top: 20%; }
+    div.contentContainer .optionsContainer .optionsNewGameButton {
+      display: block;
+      width: 9em;
+      height: 3.5em;
+      margin: 0 auto;
+      font-size: 0.75em;
+      margin-top: 12em;
+      background-color: lightgrey;
+      font-family: "Audiowide", "Lobster", "serif";
+      border-radius: 3px;
+      border: black 0.2em solid;
+      transition: background-color 0.3s linear 0s, color 0.3s linear 0s;
+      color: black; }
+    div.contentContainer .optionsContainer .optionsNewGameButton:hover {
+      background-color: red;
+      color: white; }
+  div.contentContainer .endContainer {
+    display: none;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 10em;
+    background-color: black;
+    height: 25em;
+    width: 20em; }
+    div.contentContainer .endContainer h1 {
+      color: white;
+      font-size: 1.5em;
+      letter-spacing: 0.09em;
+      font-family: 'EB Garamond', serif;
+      position: relative;
+      top: 25%;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center; }
+    div.contentContainer .endContainer p {
+      font-family: 'EB Garamond', serif;
+      color: white;
+      width: 16em;
+      margin: 0 auto;
+      position: relative;
+      top: 35%;
+      text-align: center;
+      font-size: 1em; }
+    div.contentContainer .endContainer #quizTime,
+    div.contentContainer .endContainer #totalCorrectAnswers {
+      font-size: 1.5em; }
+    div.contentContainer .endContainer .newGameButton {
+      display: block;
+      width: 8em;
+      height: 2.5em;
+      margin: 0 auto;
+      font-size: 0.8em;
+      margin-top: 15em;
+      background-color: lightgrey;
+      font-family: "Audiowide", "Lobster", "serif";
+      border-radius: 3px;
+      border: black 0.2em solid;
+      transition: background-color 0.3s linear 0s, color 0.3s linear 0s;
+      color: black; }
+    div.contentContainer .endContainer .newGameButton:hover {
+      background-color: red;
+      color: white; }
 
 li > p {
   color: #000000;

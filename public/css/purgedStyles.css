@@ -285,7 +285,7 @@ div.contentContainer {
     display: none;
     border-radius: 25px;
     margin: 0 auto;
-    margin-top: 9em;
+    margin-top: 7em;
     background-color: black;
     height: 25em;
     width: 20em;
@@ -578,6 +578,7 @@ li > p {
         width: 10em;
         height: 3.5em;
         font-size: 1em;
+        margin-top: 12em;
     }
     .contentContainer .endContainer {
         width: 50em;

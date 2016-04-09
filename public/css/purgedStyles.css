@@ -232,7 +232,7 @@ div.contentContainer {
 .contentContainer .optionsContainer {
     z-index: 500;
     display: none;
-    height: 75%;
+    height: 35em;
     background-color: black;
     text-align: center;
     top: 3em;
@@ -566,7 +566,7 @@ li > p {
         height: 3em;
     }
     .contentContainer .optionsContainer {
-        height: 85%;
+        height: 37em;
     }
     .contentContainer .optionsContainer .optionsTitle {
         font-size: 4em;
